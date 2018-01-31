@@ -1,0 +1,2 @@
+class SessionsView < BaseView
+end

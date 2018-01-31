@@ -20,4 +20,8 @@ class TravelersController
     travelers = @travelers_repository.all
     @view.display(travelers)
   end
+
+  def get_coffee
+    puts "here is your coffee!"
+  end
 end
