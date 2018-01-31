@@ -10,10 +10,10 @@ class Ticket
 
 
   def to_csv_row
-    [@id, @destination, @address]
+    [@id, @destination, @price]
   end
 
   def self.headers
-    %w(id destination address)
+    %w(id destination price)
   end
 end
